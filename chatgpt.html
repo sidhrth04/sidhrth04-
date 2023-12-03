@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Airline Reservation System</title>
+	<link rel="stylesheet" type="text/css" href="chatgp.css">
+</head>
+<body>
+	<header>
+		<img src="airline-logo.png" alt="Airline Logo">
+		<h1>Airline Reservation System</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Flights</a></li>
+			<li><a href="#">My Bookings</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section class="booking">
+			<h2>Book a Flight</h2>
+			<form action="#" method="post">
+				<label for="from">From:</label>
+				<input type="text" id="from" name="from">
+
+				<label for="to">To:</label>
+				<input type="text" id="to" name="to">
+
+				<label for="departure">Departure Date:</label>
+				<input type="date" id="departure" name="departure">
+
+				<label for="return">Return Date:</label>
+				<input type="date" id="return" name="return">
+
+				<label for="payment">Payment Method:</label>
+				<select id="payment" name="payment">
+					<option value="credit-card">Credit Card</option>
+					<option value="debit-card">Debit Card</option>
+					<option value="upi">UPI</option>
+				</select>
+
+				<label for="amount">Amount (INR):</label>
+				<input type="text" id="amount" name="amount">
+
+				<input type="submit" value="Search Flights">
+			</form>
+		</section>
+		<section class="flight-list">
+			<h2>Available Flights</h2>
+			<ul>
+				<li>
+					<img src="flight-image-1.jpg" alt="Flight Image">
+					<h3>Flight Number</h3>
+					<p>From: Departure Airport</p>
+					<p>To: Arrival Airport</p>
+					<p>Departure Date and Time</p>
+					<p>Price (INR)</p>
+					<a href="#">Book Now</a>
+				</li>
+				<li>
+					<img src="flight-image-2.jpg" alt="Flight Image">
+					<h3>Flight Number</h3>
+					<p>From: Departure Airport</p>
+					<p>To: Arrival Airport</p>
+					<p>Departure Date and Time</p>
+					<p>Price (INR)</p>
+					<a href="#">Book Now</a>
+				</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Airline Reservation System. All rights reserved.</p>
+	</footer>
+</body>
+</html>
